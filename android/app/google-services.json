@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "621216490385",
+    "project_id": "kime-4d612",
+    "storage_bucket": "kime-4d612.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621216490385:android:e30aa80dcdde8ce12e7030",
+        "android_client_info": {
+          "package_name": "com.example.kime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "621216490385-f6ect3e4pe12aakhbdvngeaapth20id5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_kWAabH4_ZjaPY_ZyiBCpL0yqZKIZMNA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "621216490385-f6ect3e4pe12aakhbdvngeaapth20id5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kime/screens/auth/otp.dart';
+import 'package:kime/screens/auth/phone/otp.dart';
 import 'package:kime/screens/widgets/app_button.dart';
 
 class PhoneAuth extends StatefulWidget {

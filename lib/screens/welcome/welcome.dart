@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kime/screens/auth/phone_auth.dart';
+import 'package:kime/screens/auth/email/sign_up.dart';
 import 'package:kime/screens/widgets/app_button.dart';
 
 class Welcome extends StatelessWidget {
@@ -15,7 +15,7 @@ class Welcome extends StatelessWidget {
             onPress: () {
               Navigator.of(context).push(
                 MaterialPageRoute(
-                  builder: (context) => const PhoneAuth(),
+                  builder: (context) => const SignUp(),
                 ),
               );
             },
