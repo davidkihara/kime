@@ -1,6 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:kime/screens/auth/email/sign_in.dart';
+import 'package:kime/screens/home/medicines/medicine_card.dart';
 import 'package:kime/screens/settings/settings.dart';
 import 'package:kime/utils/app_colors.dart';
 
@@ -49,8 +50,14 @@ class _HomePageState extends State<HomePage> {
           ),
         ],
       ),
-      body: const Center(
-        child: Text("My Home Page"),
+      body: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: ListView.builder(
+          itemCount: 6,
+          itemBuilder: (context, i) {
+            return MedicineCard();
+          },
+        ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
